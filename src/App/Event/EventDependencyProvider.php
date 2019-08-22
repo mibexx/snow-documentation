@@ -18,11 +18,7 @@ class EventDependencyProvider extends XerviceEventDependencyProvider
      */
     protected function getListener(): array
     {
-        return [
-            ProjectHandler::EVENT_NAME => [
-                ProjectUpdateListener::class
-            ]
-        ];
+        return [];
     }
 
 }

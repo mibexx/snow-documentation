@@ -11,15 +11,15 @@
     "phpunit/phpunit": "7.1.*",
     "codeception/codeception": "*",
     "symfony/var-dumper": "*",
-    "xervice/development": "*1",
+    "xervice/development": "*",
     "filp/whoops": "^2.2.0"
   },
   "require": {
     "php": ">=7.1.0",
     "xervice/exception-handler": "^2.0.0",
     "xervice/data-provider": "^2.3.1",
-    "xervice/log-rabbitmq": "^2.0.0",
-    "xervice/event-rabbitmq": "^2.1.0",
+    "xervice/log-rabbitmq": "^2.1.0",
+    "xervice/event-rabbitmq": "^2.2.0",
     "xervice/api": "^2.0.0",
     "xervice/security": "^3.0.0",
     "xervice/database": "^2.1.0",
@@ -29,7 +29,7 @@
     "propel/propel": "2.0.0-alpha8",
     "xervice/elasticsearch": "^1.2.1",
     "guzzlehttp/guzzle": "^6.3.3",
-    "xervice/rabbitmq": "^3.4.1",
+    "xervice/rabbitmq": "^4.0.0",
     "xervice/database-data-provider": "^1.1.0",
     "xervice/processor": "^2.0.0"
   },

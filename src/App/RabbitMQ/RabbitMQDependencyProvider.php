@@ -13,6 +13,7 @@ use Xervice\EventRabbitMq\Business\Plugin\Queue\EventQueue;
 use Xervice\LogRabbitMq\Business\Plugin\Queue\LogExchange;
 use Xervice\LogRabbitMq\Business\Plugin\Queue\LogQueue;
 use Xervice\RabbitMQ\RabbitMQDependencyProvider as XerviceRabbitMQDependencyProvider;
+use XerviceTest\LogRabbitMq\Listener\LogListener;
 
 class RabbitMQDependencyProvider extends XerviceRabbitMQDependencyProvider
 {
@@ -45,7 +46,6 @@ class RabbitMQDependencyProvider extends XerviceRabbitMQDependencyProvider
     {
         return [
             new QueueListener(),
-            new SyncListener()
         ];
     }
 }
